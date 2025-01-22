@@ -1,0 +1,87 @@
+.xk__login__container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 100vh;
+}
+
+.xk__item__1,
+.xk__item__2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+}
+
+.xk__item__1 {
+    background-color: #F1F0FF;
+}
+
+.xk__item__2 {
+    background-color: #D9DAF0;
+}
+
+.xk__login__form {
+    position: absolute;
+    top: 10vw;
+    left: 0;
+    right: 0;
+    width: 80%; 
+    margin-left: 50%;
+    max-width: 400px;
+    height: 50%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+  }
+
+  .xk__login__form__title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+  }
+
+  .xk__login__form__logo {
+    margin-bottom: 0;
+    width: 90px;
+    height: 100px;
+  }
+
+  .xk__login__form__inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
